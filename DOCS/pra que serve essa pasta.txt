@@ -1,0 +1,17 @@
+essa pasta serve para anotar ideais e rascunhos para o site.
+
+----------
+anotações
+----------
+".gitignore" é um armazenamento de dados do que deve ser ignorado no site do GitHub pages (pelo oque eu entendi)
+"/assets" é onde você coloca as imagens
+"/data" é onde guarda as fontes, o CSV (uma tabela em formato de texto) e planilhas exportadas
+
+----------
+ideias
+----------
+
+
+----------
+rascunhos
+----------
