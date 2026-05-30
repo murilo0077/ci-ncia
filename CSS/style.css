@@ -1,0 +1,21 @@
+.cpk {
+    padding: 2rem;
+}
+.mod-hero {
+    background-color: #367588;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    simbolo1 {
+        width: 100px;
+        height: auto;
+    }
+}
+
+.subtitle {
+    color: #d3d3d3;
+}
+
+.body {
+    text-align: center;
+}
