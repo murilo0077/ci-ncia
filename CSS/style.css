@@ -6,10 +6,6 @@
     background-size: cover;
     background-position: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    simbolo1 {
-        width: 100px;
-        height: auto;
-    }
 }
 
 .subtitle {
@@ -18,4 +14,25 @@
 
 .body {
     text-align: center;
+}
+
+.intro {
+    padding-top: 150px;
+    font-family: 'Nunito';
+    color: #DDEBFF;
+    font-size: 4rem;
+    font-weight: 800;
+    text-shadow: 0 2px 4px rgba(96, 90, 111, 0.641);
+}
+
+section {
+    text-align: center;
+
+}
+
+.texto1 {
+    color: #C9D1E8;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
