@@ -18,10 +18,10 @@
 
 @keyframes ondinha01 {
     0% {
-        transform: translateX(25px);
+        transform: translateX(40px);
     }
     100% {
-        transform: translateX(-25px);
+        transform: translateX(-35px);
     }
 }
 
