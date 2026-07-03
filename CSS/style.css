@@ -1,56 +1,76 @@
-
-.cpk {
-    padding: 2rem;
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #0E0E55;
+    color: #DDEBFF;
 }
-.mod-hero {
-    background-color: #367588;
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+.navbar {
+    background-color: rgba(14, 14, 85, 0.95) !important;
+    backdrop-filter: blur(10px);
+}
+
+.hero.mod-hero {
+    background: linear-gradient(135deg, #0E0E55 0%, #367588 100%);
     position: relative;
-    .ondinha1 { box-shadow: 0, 0, 0, 0.2;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        animation: ondinha01 2s linear infinite alternate;
-    }
+}
+
+.ondinha1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    animation: ondinha01 8s linear infinite alternate;
 }
 
 @keyframes ondinha01 {
-    0% {
-        transform: translateX(40px);
-    }
-    100% {
-        transform: translateX(-35px);
-    }
-}
-
-.subtitle {
-    color: #d3d3d3;
-}
-
-.body {
-    text-align: center;
+    0% { transform: translateX(40px); }
+    100% { transform: translateX(-35px); }
 }
 
 .intro {
-    padding-top: 150px;
-    font-family: 'Nunito';
-    color: #DDEBFF;
-    font-size: 4rem;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-size: 2.8rem;
     font-weight: 800;
-    text-shadow: 0 2px 4px rgba(96, 90, 111, 0.641);
-}
-
-section {
     text-align: center;
-
+    color: #DDEBFF;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.texto1 {
-    color: #C9D1E8;
-    max-width: 800px;
-    margin: 0 auto;
-    margin-bottom: 30px;
+.section {
+    padding: 5rem 1.5rem;
 }
 
+.card {
+    background-color: #1A1A6B;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-metric:hover {
+    transform: translateY(-8px);
+    transition: all 0.3s;
+}
+
+.table {
+    background-color: #1A1A6B;
+    color: #DDEBFF;
+}
+
+.button.is-primary {
+    background-color: #48C3D7;
+    color: #0E0E55;
+    font-weight: bold;
+}
+
+.content ul li {
+    margin-bottom: 12px;
+    font-size: 1.15rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .intro {
+        font-size: 2.2rem;
+    }
+}
