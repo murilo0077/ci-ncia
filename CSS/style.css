@@ -9,22 +9,17 @@ body {
     backdrop-filter: blur(10px);
 }
 
-.hero.mod-hero {
+.mod-hero {
     background: linear-gradient(135deg, #0E0E55 0%, #367588 100%);
     position: relative;
+    overflow: hidden;
 }
 
-.ondinha1 {
+.ondinha {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    animation: ondinha01 8s linear infinite alternate;
-}
-
-@keyframes ondinha01 {
-    0% { transform: translateX(40px); }
-    100% { transform: translateX(-35px); }
 }
 
 .intro {
@@ -52,25 +47,12 @@ body {
     transition: all 0.3s;
 }
 
-.table {
-    background-color: #1A1A6B;
-    color: #DDEBFF;
-}
-
 .button.is-primary {
     background-color: #48C3D7;
     color: #0E0E55;
     font-weight: bold;
 }
 
-.content ul li {
-    margin-bottom: 12px;
-    font-size: 1.15rem;
-}
-
-/* Responsividade */
 @media (max-width: 768px) {
-    .intro {
-        font-size: 2.2rem;
-    }
-}
+    .intro { font-size: 2.2rem; }
+}s
