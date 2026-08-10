@@ -19,6 +19,7 @@ const bancoDados = {
       "medicina": {
         "turno": "Integral",
         "2016": {
+          "salario_minimo": 13380.27,
           "vagas": {
             "negros": 3,
             "publica": 12,
@@ -44,6 +45,7 @@ const bancoDados = {
           }
         },
         "2017": {
+          "salario_minimo": 13842.20,
           "vagas": {
             "negros": 3,
             "publica": 12,
@@ -69,6 +71,7 @@ const bancoDados = {
           }
         },
         "2018": {
+          "salario_minimo": 14138.58,
           "vagas": {
             "negros": 1,
             "publica": 6,
@@ -94,6 +97,7 @@ const bancoDados = {
           }
         },
         "2019": {
+          "salario_minimo": 14562.38,
           "vagas": {
             "negros": 1,
             "publica": 6,
@@ -119,6 +123,7 @@ const bancoDados = {
           }
         },
         "2020": {
+          "salario_minimo": 15274.34,
           "vagas": {
             "publica_negros": 3,
             "publica": 12,
@@ -144,6 +149,7 @@ const bancoDados = {
           }
         },
         "2021_primavera": {
+          "salario_minimo": 15932.23,
           "vagas": {
             "publica_negros": 2,
             "publica": 7,
@@ -169,6 +175,7 @@ const bancoDados = {
           }
         },
         "2022": {
+          "salario_minimo": 17742.78,
           "vagas": {
             "negros": 2,
             "publica_negros": 3,
@@ -202,6 +209,7 @@ const bancoDados = {
           }
         },
         "2023": {
+          "salario_minimo": 18709.99,
           "vagas": {
             "negros": 2,
             "publica_negros": 3,
@@ -235,6 +243,7 @@ const bancoDados = {
           }
         },
         "2024": {
+          "salario_minimo": 19593.23,
           "vagas": {
             "negros": 2,
             "publica_negros": 4,
@@ -268,6 +277,7 @@ const bancoDados = {
           }
         },
         "2025": {
+          "salario_minimo": 20357.37,
           "vagas": {
             "negros": 2,
             "publica_negros": 4,
@@ -304,6 +314,7 @@ const bancoDados = {
       "engenharia_software": {
         "turno": "Noturno",
         "2016": {
+          "salario_minimo": 7480.00,
           "vagas": {
             "negros": 1,
             "publica": 5,
@@ -329,6 +340,7 @@ const bancoDados = {
           }
         },
         "2017": {
+          "salario_minimo": 7964.50,
           "vagas": {
             "negros": 6,
             "publica": 2,
@@ -353,6 +365,7 @@ const bancoDados = {
           }
         },
         "2018": {
+          "salario_minimo": 8109.00,
           "vagas": {
             "negros": 1,
             "publica": 6,
@@ -377,6 +390,7 @@ const bancoDados = {
           }
         },
         "2019": {
+          "salario_minimo": 8483.00,
           "vagas": {
             "negros": 6,
             "publica": 1,
@@ -401,6 +415,7 @@ const bancoDados = {
           }
         },
         "2020": {
+          "salario_minimo": 8882.50,
           "vagas": {
             "publica_negros": 3,
             "publica": 12,
@@ -426,10 +441,12 @@ const bancoDados = {
           }
         },
         "2021_primavera": {
+          "salario_minimo": 9350.00,
           "nota": "Nao listado neste informativo especifico de 2021",
           "status": "Nao disponivel no documento original fornecido"
         },
         "2022": {
+          "salario_minimo": 10302.00,
           "vagas": {
             "negros": 2,
             "publica_negros": 3,
@@ -463,6 +480,7 @@ const bancoDados = {
           }
         },
         "2023": {
+          "salario_minimo": 10302.00,
           "vagas": {
             "negros": 2,
             "publica_negros": 3,
@@ -496,6 +514,7 @@ const bancoDados = {
           }
         },
         "2024": {
+          "salario_minimo": 10302.00,
           "vagas": {
             "negros": 2,
             "publica_negros": 3,
@@ -529,6 +548,7 @@ const bancoDados = {
           }
         },
         "2025": {
+          "salario_minimo": 10302.00,
           "vagas": {
             "negros": 2,
             "publica_negros": 3,
@@ -565,6 +585,7 @@ const bancoDados = {
       "direito_noturno": {
         "turno": "Noturno",
         "2016": {
+          "salario_minimo": 8976.00,
           "vagas": {
             "negros": 3,
             "publica": 12,
@@ -590,6 +611,7 @@ const bancoDados = {
           }
         },
         "2017": {
+          "salario_minimo": 9557.40,
           "vagas": {
             "negros": 10,
             "publica": 3,
@@ -615,6 +637,7 @@ const bancoDados = {
           }
         },
         "2018": {
+          "salario_minimo": 9730.80,
           "vagas": {
             "negros": 2,
             "publica": 11,
@@ -640,6 +663,7 @@ const bancoDados = {
           }
         },
         "2019": {
+          "salario_minimo": 10179.60,
           "vagas": {
             "negros": 2,
             "publica": 11,
@@ -665,6 +689,7 @@ const bancoDados = {
           }
         },
         "2020": {
+          "salario_minimo": 10659.00,
           "vagas": {
             "publica_negros": 5,
             "publica": 21,
@@ -689,6 +714,7 @@ const bancoDados = {
           }
         },
         "2021_primavera": {
+          "salario_minimo": 11220.00,
           "vagas": {
             "publica_negros": 3,
             "publica": 11,
@@ -714,6 +740,7 @@ const bancoDados = {
           }
         },
         "2022": {
+          "salario_minimo": 12362.40,
           "vagas": {
             "negros": 3,
             "publica_negros": 5,
@@ -747,6 +774,7 @@ const bancoDados = {
           }
         },
         "2023": {
+          "salario_minimo": 12362.40,
           "vagas": {
             "negros": 3,
             "publica_negros": 5,
@@ -780,6 +808,7 @@ const bancoDados = {
           }
         },
         "2024": {
+          "salario_minimo": 12362.40,
           "vagas": {
             "negros": 3,
             "publica_negros": 5,
@@ -813,6 +842,7 @@ const bancoDados = {
           }
         },
         "2025": {
+          "salario_minimo": 12362.40,
           "vagas": {
             "negros": 3,
             "publica_negros": 5,
@@ -849,6 +879,7 @@ const bancoDados = {
       "enfermagem": {
         "turno": "Integral",
         "2016": {
+          "salario_minimo": 2850.00,
           "vagas": {
             "negros": 1,
             "publica": 6,
@@ -873,6 +904,7 @@ const bancoDados = {
           }
         },
         "2017": {
+          "salario_minimo": 2980.00,
           "vagas": {
             "negros": 6,
             "publica": 2,
@@ -898,6 +930,7 @@ const bancoDados = {
           }
         },
         "2018": {
+          "salario_minimo": 3100.00,
           "vagas": {
             "negros": 2,
             "publica": 9,
@@ -922,6 +955,7 @@ const bancoDados = {
           }
         },
         "2019": {
+          "salario_minimo": 3250.00,
           "vagas": {
             "negros": 6,
             "publica": 1,
@@ -946,6 +980,7 @@ const bancoDados = {
           }
         },
         "2020": {
+          "salario_minimo": 3500.00,
           "vagas": {
             "publica_negros": 3,
             "publica": 12,
@@ -971,6 +1006,7 @@ const bancoDados = {
           }
         },
         "2021_primavera": {
+          "salario_minimo": 3800.00,
           "vagas": {
             "publica_negros": 2,
             "publica": 6,
@@ -996,6 +1032,7 @@ const bancoDados = {
           }
         },
         "2022": {
+          "salario_minimo": 4750.00,
           "vagas": {
             "negros": 2,
             "publica_negros": 3,
@@ -1028,6 +1065,7 @@ const bancoDados = {
           }
         },
         "2023": {
+          "salario_minimo": 4750.00,
           "vagas": {
             "negros": 2,
             "publica_negros": 3,
@@ -1060,6 +1098,7 @@ const bancoDados = {
           }
         },
         "2024": {
+          "salario_minimo": 4750.00,
           "vagas": {
             "negros": 2,
             "publica_negros": 4,
@@ -1093,6 +1132,7 @@ const bancoDados = {
           }
         },
         "2025": {
+          "salario_minimo": 4750.00,
           "vagas": {
             "negros": 2,
             "publica_negros": 4,
@@ -1128,4 +1168,12 @@ const bancoDados = {
       }
     }
   };
+  
+  
+  if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
+      module.exports = bancoDados;
+  }
+  if (typeof window !== 'undefined') {
+      window.bancoDados = bancoDados;
+  }
   
